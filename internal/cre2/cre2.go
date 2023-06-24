@@ -5,6 +5,7 @@ package cre2
 /*
 #include <stdlib.h>
 #include <stdbool.h>
+#include <cre2.h>
 
 */
 import "C"
