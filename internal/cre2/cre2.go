@@ -4,6 +4,7 @@ package cre2
 
 /*
 #include <stdbool.h>
+#include <stdint.h>
 
 void* cre2_new(void* pattern, int pattern_len, void* opts);
 void cre2_delete(void* re);
@@ -107,7 +108,7 @@ func OptSetLatin1Encoding(opt unsafe.Pointer) {
 }
 
 func Malloc(size int) unsafe.Pointer {
-	return C.malloc(C.ulonglong(size))
+	return C.malloc(C.uint64_t(size))
 }
 
 func Free(ptr unsafe.Pointer) {
