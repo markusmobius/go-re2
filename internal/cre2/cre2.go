@@ -3,7 +3,9 @@
 package cre2
 
 /*
+#include <stdlib.h>
 #include <stdbool.h>
+
 
 void* cre2_new(void* pattern, int pattern_len, void* opts);
 void cre2_delete(void* re);
