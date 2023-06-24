@@ -28,7 +28,7 @@ func ErrorArg(rePtr unsafe.Pointer, argPtr unsafe.Pointer) {
 }
 
 func FindAndConsume(rePtr unsafe.Pointer, textPtr unsafe.Pointer, matchPtr unsafe.Pointer, nMatch int) bool {
-	return C.cre2_find_and_consume_re(rePtr, textPtr, matchPtr, C.int(nMatch)) > 0
+	return C.cre2_match_rex2_fun_t(rePtr, textPtr, matchPtr, C.int(nMatch)) > 0
 }
 
 func GlobalReplace(rePtr unsafe.Pointer, textAndTargetPtr unsafe.Pointer, rewritePtr unsafe.Pointer) bool {
