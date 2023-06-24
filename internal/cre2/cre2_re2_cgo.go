@@ -4,6 +4,7 @@ package cre2
 
 /*
 #cgo pkg-config: re2
-#cgo CXXFLAGS: -std=c++17 -lstdc++
+#cgo CXXFLAGS: -std=c++17
+#cgo LDFLAGS: -lstdc++
 */
 import "C"
