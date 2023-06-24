@@ -3,8 +3,6 @@
 package cre2
 
 /*
-#include <stdlib.h>
-#include <malloc.h>
 #include <stdbool.h>
 
 void* cre2_new(void* pattern, int pattern_len, void* opts);
