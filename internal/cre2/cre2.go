@@ -26,7 +26,7 @@ void cre2_opt_set_posix_syntax(void* opt, int flag);
 void cre2_opt_set_case_sensitive(void* opt, int flag);
 void cre2_opt_set_latin1_encoding(void* opt);
 
-void* malloc(unsigned long size);
+void* malloc(size_t size);
 void free(void* ptr);
 */
 import "C"
