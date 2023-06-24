@@ -3,7 +3,7 @@ package re2_test
 import (
 	"fmt"
 
-	regexp "github.com/wasilibs/go-re2"
+	regexp "github.com/markusmobius/go-re2"
 )
 
 func Example() {
