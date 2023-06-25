@@ -1,5 +1,7 @@
 # go-re2
 
+Note: This library is fork of [https://github.com/wasilibs/go-re2] with very minor changes that also allow compilation on Windows with MinGW-w64. 
+
 go-re2 is a drop-in replacement for the standard library [regexp][1] package which uses the C++
 [re2][2] library for improved performance with large inputs or complex expressions. By default,
 re2 is packaged as a WebAssembly module and accessed with the pure Go runtime, [wazero][3].
