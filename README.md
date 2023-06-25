@@ -241,4 +241,4 @@ scaling with cgo - thread safety is managed by re2 itself in cgo mode which also
 [4]: https://github.com/wasilibs/go-re2/actions/workflows/bench.yaml
 [5]: https://github.com/coreruleset/coreruleset
 [6]: https://github.com/corazawaf/coraza
-[7]: [https://wazero.io](https://github.com/wasilibs/go-re2)
+[7]: https://github.com/wasilibs/go-re2
