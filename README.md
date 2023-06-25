@@ -1,6 +1,6 @@
 # go-re2
 
-Note: This library is fork of [https://github.com/wasilibs/go-re2] with very minor changes that also allow compilation on Windows with MinGW-w64. 
+Note: This library is fork of [go-re2][7] with very minor changes that also allow compilation on Windows with MinGW-w64. 
 
 go-re2 is a drop-in replacement for the standard library [regexp][1] package which uses the C++
 [re2][2] library for improved performance with large inputs or complex expressions. By default,
@@ -241,3 +241,4 @@ scaling with cgo - thread safety is managed by re2 itself in cgo mode which also
 [4]: https://github.com/wasilibs/go-re2/actions/workflows/bench.yaml
 [5]: https://github.com/coreruleset/coreruleset
 [6]: https://github.com/corazawaf/coraza
+[7]: [https://wazero.io](https://github.com/wasilibs/go-re2)
